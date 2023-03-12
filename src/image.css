@@ -1,0 +1,14 @@
+.image {
+  margin-top: 1rem;
+
+  width: 100px;
+  height: 100px;
+
+  /* Add image from dist/image (path was added to postcss.config.js) */
+  background-image: resolve('qr-code-github.png');
+  background-size: cover;
+
+  /* Set the width, height of the element as the actual width, height of the .png file*/
+  /* width: width('qr-code-github.png');
+  height: height('qr-code-github.png'); */
+}

@@ -1,0 +1,21 @@
+@import 'vars';
+@import 'button';
+@import 'image';
+
+@custom-selector :--heading h1, h2, h3, h4, h5, h6;
+@custom-media --viewport-small (width <= 450px);
+
+body {
+  background-color: $colorBackground;
+  color: oklch(80% 0.35 300 / 1);
+
+  font-family: 'Inter', sans-serif;
+
+  :--heading {
+    color: $colorPrimary;
+
+    @media (--viewport-small) {
+      font-size: 3rem;
+    }
+  }
+}
