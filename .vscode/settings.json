@@ -1,5 +1,0 @@
-{
-  // Disable CSS linting for unknown at-rules (needed for fixing warning in PostCSS)
-  "css.lint.unknownAtRules": "ignore",
-  "scss.lint.unknownAtRules": "ignore"
-}
